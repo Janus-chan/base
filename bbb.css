@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+}
+
+body {
+  position: relative;
+  /* overflow-x: hidden; */
+}
+
+.seat {
+  position: relative;
+  /* position: absolute; */
+}
+
+p:nth-of-type(1) {
+  font-size: 3em;
+  color: #fff;
+  top: 3rem;
+  left: .5rem;
+  right: .5rem;
+  /* position: relative; */
+  position: absolute;
+}
+
+.seat video {
+  position: absolute;
+  max-width: 100%;
+  z-index: -4;
+}
+
+
+
+.lists {
+  right: 0%;
+  /* left: 100%; */
+  width: 200px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  background-color: #fff;
+  z-index: 300;
+  /* transform: translateX(160px); */
+}
+
+.lists li {
+  list-style: none;
+  font-size: 2.3rem;
+}
+.ham{
+  background-image: url("https://image.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg");
+  max-width: 100px;
+  position: relative;
+  top: -35%;
+  left: -60%;
+  right: 0%;
+  cursor: pointer;
+  filter: invert(1);
+  z-index: 5000;
+}
